@@ -3,328 +3,804 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HUMAYOUN KOBIR</title>
-
-    <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Satisfy&display=swap" rel="stylesheet">
-
-    <!-- css for mobile -->
-    <link rel="stylesheet" href="style.css">
-
-
-    <!-- css for desktop -->
-    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 992px)">
+    <title>Khandoker Humayoun Kobir</title>
+    <meta name="description" content="Advanced portfolio of Khandoker Humayoun Kobir - AI Researcher, Data Engineer, and Machine Learning Expert">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Three.js for 3D elements -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <!-- Particles.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    
-    <!-- navbar starts from here  -->
-    <div class="navbar">
-        <div class="nav-logo col-1">
-            <img src="images/logo.png" alt="logo">
-        </div>
-
-        <div class="nav-heading col-6">
-            <h1>KHANDOKER HUMAYOUN KOBIR</h1>
-        </div>
-
-        <div class="navbar-menu col-5">
-            <a href="#">Home</a>
-            <a href="#about-me-id">About Me</a>
-            <a href="#skill-id">Skill</a>
-            <a href="#contact-id">Contact Me</a>
-        </div>
+<body class="dark-theme">
+    <!-- Custom Cursor -->
+    <div class="cursor">
+        <div class="cursor-inner"></div>
+        <div class="cursor-outer"></div>
     </div>
 
-    <!-- navbar ends here  -->
-
-
-
-
-    <!-- profile starts from here  -->
-    <div class="profile">
-        <img class="top-weather-icon" src="images/weather.png" alt="top weather icon">
-        <div class="profile-desc">
-            <h1> I am a Data Engineer and AI Reaearcher <br> skilled in ML and Deep Learning </h1>
-            <p>Hi! My name is Khandoker Humayoun Kobir. Welcome to my personal page that I have designed to showcase my skills and expertise that I have accumulated over the year. </p>
-        </div>
-        <img class="bottom-weather-icon" src="images/weather.png" alt="bottom weather icon">
-    </div>
-    <!-- profile ends here  -->
-
-    
-
-
-    <!-- about me starts here  -->
-     <div class="about-me" id="about-me-id">
-        <h2>ABOUT ME</h2>
-        <hr class="dotted-hr">       
-        <div class="aboutme-image col-6">
-            <img src="images/kobir.jpg" alt="no image">
-        </div>
-        <div class="aboutme-desc col-6">
-            <p>I am Khandoker Humayoun Kobir, a passionate and goal-oriented Data Engineer and AI Researcher, with specialized expertise in Machine Learning, Deep Learning, and Biomedical Image Analysis. My work blends academic research with real-world problem-solving—spanning cancer detection, land use classification, and environmental analytics. </p>
-            <p>I have hands-on experience with Python, Google Colab, TensorFlow, Scikit-learn, and advanced ML techniques like SMOTE, feature selection, and ensemble modeling. I’ve published peer-reviewed research, contributed to impactful datasets like WBCD and BCSC, and developed models achieving over 99% accuracy.</p>
-            <p>In addition, I am also a skilled WordPress developer, building dynamic, SEO-optimized websites using Elementor and modern web tools. I believe in continuous learning, ethical AI, and using technology for social good—especially in areas like healthcare, sustainability, and education.</p> 
-            
-            <hr class="aboutme-hr">
-            <p>Name: Khandoker Humayoun Kobir</p> 
-            <hr class="aboutme-hr">
-            <p>Address: Nikunja-2, Khilkhet,Dhaka</p>
-            <hr class="aboutme-hr">
-            <p>Email: <a href="humayoun.kobir137@gmail.com">humayoun.kobir137@gmail.com</a> </p>
-            <hr class="aboutme-hr">
-            <p>Phone: <a href="mob:+8801310179149">+8801310179149,01518792380</a> </p>
-            <hr class="aboutme-hr">
-            <p>Website: <a href="" target="blank">www.humayoun.me</a> </p>
-            <hr class="aboutme-hr">
-           
-            <p>
-                <a href="CV.pdf" target="blank" download="">
-                    <button class="cv-button">Download CV</button>
-                </a>
-            </p>
-
-        </div>
-
-    </div>
-
-    <!-- about me ends here  -->
-
-
-
-
-    <!-- professional experience start here  -->
-
-    <div class="professional-experience">
-        <div class="work-experience col-4">
-
-            <div class="card">
-                <div class="card-icon">
-                    <img class="rounded-img" src="images/work.png" alt="work icon">
-                </div>
-                <div class="card-title">
-                    <h2>WORK EXPERIENCE</h2>
-                </div>
-
-                <div class="card-desc">
-                    <ol>
-                        <li>
-                            <strong> Rechercher</strong><br>
-                            2022-present <br>
-                             Breast Cancer using Machine_Learning<br>
-                             Academic Recearch<br> 
-                             Southeast University<br>
-                        </li>
-                        <hr>
-                        <li>
-                            <strong>Event Coordinator</strong> <br>
-                             2023-present<br>
-                             Southeast Social Services Club<br>
-                             Southeast University<br>
-                        </li>
-                        <hr>
-                        <li>
-                            <strong></strong> <br>
-                             <br>
-                             <br>
-                             <br>
-                        </li>
-                        <hr>
-                        <li>
-                            <strong></strong> <br>
-                             <br>
-                             <br>
-                            <br>
-                            <a href="" target="blank"></a><br>
-                        </li>
-                        <hr>
-                        <li>
-                            <strong></strong> <br>
-                             <br>
-                             <br>
-                             <br>
-                        </li>
-                        <hr>
-                        <li>
-                            <strong></strong> <br>
-                             <br>
-                             <br>
-                             <br>
-                        </li>
-                        <hr>
-                        <li>
-                            <strong></strong> <br>
-                             <br>
-                             <br>
-                             <br>
-                        </li>
-
-                    </ol>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="neural-network">
+                    <div class="node"></div>
+                    <div class="node"></div>
+                    <div class="node"></div>
+                    <div class="connection"></div>
+                    <div class="connection"></div>
                 </div>
             </div>
-
-
+            <div class="loading-text">Initializing Portfolio...</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
         </div>
+    </div>
 
-        <div class="education col-4">
-            
-            <div class="card">
-                <div class="card-icon">
-                    <img class="rounded-img" src="images/book.png" alt="work icon">
-                </div>
-                <div class="card-title">
-                    <h2>EDUCATION AND TRAINING</h2>
-                </div>
-
-                <div class="card-desc">
-                    <ol>
-                        <li>
-                            <strong>B.Sc. in Computer Science & Engineering</strong> <br>
-                            2020-present</br>
-                            Southeast University <br>
-                            252, Tejgaon Industrial Area, Dhaka-1208, Bangladesh  <br>
-                            <a href="https://seu.edu.bd/" target="blank">https://seu.edu.bd</a> <br>
-                            Result:  3.69/4.00 <br>
-                         </li>
-                         <hr>
-                         <li>
-                            <strong>Higher Secondary Certificate (HSC)</strong> <br>
-                            2019</br>
-                            Gurjipara College <br>
-                            Board, Dinajpur. District, Rangpur. Upazila, Pirganj <br>
-                            <a href="https://honoursadmission.com/details-hsc-information/Rangpur/127945/Gurjipara-College" target="blank">https://honoursadmission.com/details-hsc-information/Rangpur/127945/Gurjipara-College</a> <br>
-                            Result: 3.42/5.00 <br>
-                         </li>
-                         <hr>
-                         <li>
-                            <strong> Secondary School Certificate (SSC)</strong> <br>
-                            2016 <br>
-                            Bazitpur Amina High School <br>
-                            BAJITPUR,Board, Dinajpur. District, Rangpur. Upazila, Pirganj<br>
-                            <a href="https://locator.eduportalbd.com/institutes/?ins=127788" target="blank">https://locator.eduportalbd.com/institutes/?ins=127788</a> <br>
-                            Result: 4.89/5.00 <br>
-                         </li>
-                         <hr>
-                         <li>
-                            <strong> </strong> <br>
-                            <br>
-                             <br>
-                            <br>
-                            <a href="" target="blank"></a> <br>
-                          <br>
-                         </li>
-                         <hr>
-                         <li>
-                            <strong> </strong> <br>
-                            <br>
-                             <br>
-                            <br>
-                            <a href="" target="blank"></a> <br>
-                          <br>
-                         </li>
-                    </ol>
-                </div>
+    <!-- Navigation -->
+    <nav class="navbar glass-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">HK</span>
+                <div class="logo-pulse"></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link" data-text="Home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-text="About">About</a></li>
+                <li><a href="#experience" class="nav-link" data-text="Experience">Experience</a></li>
+                <li><a href="#research" class="nav-link" data-text="Research">Research</a></li>
+                <li><a href="#projects" class="nav-link" data-text="Projects">Projects</a></li>
+                <li><a href="#skills" class="nav-link" data-text="Skills">Skills</a></li>
+                <li><a href="#contact" class="nav-link" data-text="Contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
         </div>
-        </div>
+    </nav>
 
-        <div class="skills col-4" id="skill-id">
-            <div class="card">
-                <div class="card-icon">
-                    <img class="rounded-img" src="images/skill.png" alt="work icon">
-                </div>
-                <div class="card-title">
-                    <h2>SKILLS</h2>
-                </div>
-
-                <div class="card-desc">
-                    <div class="skills-container">
-                        <ul>
-                            <li class="C_Programming" >C_Programming</li>
-                            <li class="Data_Structures">Data_Structures</li>
-                            <li class="Algorithm">Algorithm</li>
-                            <li class="Data_mining">Data_Mining</li> 
-                            <li class="ML">Machine_Learning</li>
-                            <li class="AI">Artifical_Intelligence</li>
-                            <li class="Math">Mathematics</li>
-                            <li class="STA">Statistics</li>
-                            <li class="colab">Google_Colab</li>
-                            <li class="jupyter">Jupyter_Notebook</li>
-                            <li class="github">Github</li>
-                            <li class="sql">MySQL</li>
-                            <li class="networking">Computer_Networking</li>                           
-                            <li class="HTML">HTML</li>
-                            <li class="CSS">CSS</li>
-                            <li class="wordpress">Wordpress</li>
-                        </ul>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles-bg" id="particles-js"></div>
+        <div class="hero-3d" id="hero3d"></div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-greeting">
+                        <span class="greeting-text">Hello, I'm</span>
+                        <div class="greeting-wave">👋</div>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-line">Khandoker</span>
+                        <span class="title-line gradient-text">Humayoun Kobir</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <div class="typing-container">
+                            <span class="typing-text"></span>
+                            <span class="cursor-blink">|</span>
+                        </div>
+                    </div>
+                    <p class="hero-description">
+                        Pioneering the future of AI and data engineering with cutting-edge machine learning solutions 
+                        for biomedical and environmental applications.
+                    </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="99">0</div>
+                            <div class="stat-label">% Accuracy</div>
+                            <div class="stat-glow"></div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="3">0</div>
+                            <div class="stat-label">Publications</div>
+                            <div class="stat-glow"></div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="20+">0</div>
+                            <div class="stat-label">Projects</div>
+                            <div class="stat-glow"></div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="3">0</div>
+                            <div class="stat-label">Years Exp</div>
+                            <div class="stat-glow"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore My Work</span>
+                            <i class="fas fa-rocket"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Let's Connect</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/Humayoun137" class="social-link" data-tooltip="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/humayoun137" class="social-link" data-tooltip="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://facebook.com/humayonkabir.rokon" class="social-link" data-tooltip="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="mailto:humayoun.kobir137@gmail.com" class="social-link" data-tooltip="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
                     </div>
                 </div>
-        </div>
-    </div>
-
-    </div>
-
-    <!-- professional experience ends here  -->
-
-    <!-- achievement-contact starts from here  -->
-
-    <div class="achievemnet-contact">
-        <div class="achievement col-4">
-            <h2>ACHIEVEMENTS</h2>
-            <hr class="dotted-hr">
-            <p>1.</p>
-            <p>2</p>
-            <p>3.</p>
-            <p>4.</p>
-
-        </div>
-        <div class="contact col-4" id="contact-id">
-            <h2>CONTACT ME</h2>
-            <hr class="dotted-hr">
-
-            <form action="humayoun.kobir137@gmail.com" method="post" enctype="text/plain">
-                <p><input type="text" placeholder="Your Name" name="name"></p>
-                <p><input type="email" placeholder="Your Email" name="email"></p>
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message Here"></textarea>
-                <button type="submit">SEND</button>
-                <button type="reset">RESET</button>
-            </form>
-        </div>
-
-        <div class="contact-links col-4">
-            <h2>More ways to Contact</h2>
-            <hr class="dotted-hr">
-            <div class="media-buttons">
-                <button class="btn" onclick="window.open('https://www.facebook.com/humayonkabir.rokon')" class="btn request-callback"><i class="fa fa-facebook" style="color:  #3b5998;" aria-hidden="true"></i></button>
-                <button class="btn" onclick="window.open('https://github.com/Humayoun137')" class="btn request-callback"><i class="fa fa-github" aria-hidden="true" style="color: #000000;"></i></button>
-                <button class="btn" onclick="window.open('https://join.skype.com/invite/XHo9SeY5OmC9')" class="btn request-callback"><i class="fa fa-skype" style="color:  #3b5998;" aria-hidden="true"></i></button>
-                <button class="btn" onclick="window.open('https://www.linkedin.com/in/khandoker-humayoun-kobir-58731b29b/')" class="btn request-callback"><i class="fa fa-linkedin" style="color:  #3b5998;" aria-hidden="true"></i></button>
-                <button class="btn" onclick="window.open('')" class="request-callback"><i class="fa fa-youtube-play" style="color: #c4302b;" aria-hidden="true"></i></button>
-                <button class="btn" onclick="window.open('')" class="btn request-callback"> <span style="font-size: 1.7rem;">&#127760;</span> </i></button>
-           
+                
+                <div class="hero-visual">
+                    <div class="profile-container">
+                        <div class="profile-card glass-card">
+                            <div class="profile-image">
+                                <div class="profile-avatar">
+                                    <img src="image.jpg" alt="Profile Photo" class="profile-photo">
+                                </div>
+                                <div class="profile-ring"></div>
+                                <div class="profile-particles"></div>
+                            </div>
+                            <div class="profile-info">
+                                <h3>AI Researcher</h3>
+                                <p>Data Engineer</p>
+                                <div class="status-indicator">
+                                    <div class="status-dot"></div>
+                                    <span>Available for Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        
+                        <div class="floating-elements">
+                            <div class="floating-icon" data-icon="brain">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="floating-icon" data-icon="robot">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="floating-icon" data-icon="chart">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="floating-icon" data-icon="database">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="floating-icon" data-icon="code">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
-    <!-- achievement-contact ends here  -->
-
-
-    <!-- footer starts from here  -->
-
-    <div class="footer">
-        <div class="footer-menu col-6">
-            <a href="#">Home</a>
-            <a href="#about-me-id">About Me</a>
-            <a href="#skill-id">Skill</a>
-            <a href="#contact-id">Contact Me</a>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll to explore</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
         </div>
+    </section>
 
-        <div class="footer-desc col-6">
-            &copy; Humayoun 2023. Developed with <span style="color: red; font-size: 1.5rem;">❤</span> by Humayoun.
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Passionate About Innovation</h2>
+                <p class="section-subtitle">Transforming ideas into intelligent solutions</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="text-block">
+                        <h3>Who I Am</h3>
+                        <p>
+                            I am Khandoker Humayoun Kobir, a dedicated Data Engineer and AI Researcher with expertise in 
+                            Machine Learning, Deep Learning, and data-driven problem solving. I specialize in developing 
+                            high-accuracy models for biomedical and environmental applications.
+                        </p>
+                    </div>
+                    
+                    <div class="text-block">
+                        <h3>What I Do</h3>
+                        <p>
+                            With strong skills in Python, TensorFlow, Scikit-learn, and Google Colab, I have published 
+                            impactful research and achieved over 99% model accuracy. I bridge the gap between theoretical 
+                            AI research and practical applications.
+                        </p>
+                    </div>
+                    
+                    <div class="achievements">
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Research Excellence</h4>
+                                <p>Published in IEEE and IJACSA journals</p>
+                            </div>
+                        </div>
+                        
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Education</h4>
+                                <p>B.Sc. Computer Science Engineering</p>
+                            </div>
+                        </div>
+                        
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Location</h4>
+                                <p>Dhaka, Bangladesh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="neural-network-viz">
+                        <canvas id="neuralCanvas"></canvas>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- footer ends here  -->
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Experience</span>
+                <h2 class="section-title">Professional Journey</h2>
+                <p class="section-subtitle">Building the future with AI and data</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-glow"></div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div class="timeline-date">2024 - Present</div>
+                            <div class="timeline-status">Current</div>
+                        </div>
+                        <h3>Assistant Data Engineer</h3>
+                        <h4>Probha Aurora</h4>
+                        <p>
+                            Utilizing AI, Machine Learning, and GIS technologies to identify and analyze urban features 
+                            across Dhaka city, contributing to sustainable urban planning and environmental research.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">AI/ML</span>
+                            <span class="skill-tag">GIS</span>
+                            <span class="skill-tag">Urban Planning</span>
+                            <span class="skill-tag">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-glow"></div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div class="timeline-date">2021 - 2024</div>
+                            <div class="timeline-status">Completed</div>
+                        </div>
+                        <h3>Research Assistant</h3>
+                        <h4>Southeast University - AI & Robotics Lab</h4>
+                        <p>
+                            Engaged in advanced research on Machine Learning and Artificial Intelligence with focus on 
+                            biomedical image classification and environmental data analysis.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Deep Learning</span>
+                            <span class="skill-tag">Computer Vision</span>
+                            <span class="skill-tag">Research</span>
+                            <span class="skill-tag">Mentoring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Research</span>
+                <h2 class="section-title">Scientific Contributions</h2>
+                <p class="section-subtitle">Advancing knowledge in AI and healthcare</p>
+            </div>
+            
+            <div class="research-grid">
+                <div class="research-card glass-card">
+                    <div class="research-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <div class="research-content">
+                        <h3>Ensemble Machine Learning for Breast Cancer Prediction</h3>
+                        <p class="research-journal">IJACSA 2024</p>
+                        <p class="research-description">
+                            A comparative study on ensemble machine learning techniques achieving 99.6%+ accuracy 
+                            in breast cancer prediction using WBCD and BCSC datasets.
+                        </p>
+                        <div class="research-metrics">
+                            <div class="metric">
+                                <span class="metric-value">99.6%</span>
+                                <span class="metric-label">Accuracy</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">2024</span>
+                                <span class="metric-label">Published</span>
+                            </div>
+                        </div>
+                        <a href="http://dx.doi.org/10.14569/IJACSA.2024.0150792" class="research-link" target="_blank">
+                            <span>View Publication</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="research-card glass-card">
+                    <div class="research-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="research-content">
+                        <h3>SMOTE Technique for Breast Cancer Prediction</h3>
+                        <p class="research-journal">IEEE BECITHCON 2024</p>
+                        <p class="research-description">
+                            Research on applying SMOTE technique for handling imbalanced datasets in 
+                            breast cancer prediction with machine learning approaches.
+                        </p>
+                        <div class="research-metrics">
+                            <div class="metric">
+                                <span class="metric-value">IEEE</span>
+                                <span class="metric-label">Conference</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">2024</span>
+                                <span class="metric-label">Published</span>
+                            </div>
+                        </div>
+                        <a href="https://doi.org/10.1109/BECITHCON64160.2024.10962722" class="research-link" target="_blank">
+                            <span>View Publication</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="research-card glass-card">
+                    <div class="research-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="research-content">
+                        <h3>Deep Learning for Skin Cancer Detection</h3>
+                        <p class="research-journal">NCIM-2025 (Accepted)</p>
+                        <p class="research-description">
+                            Multi-class lesion classification using CNN architectures for accurate skin cancer 
+                            detection with over 10,000 skin lesion images.
+                        </p>
+                        <div class="research-metrics">
+                            <div class="metric">
+                                <span class="metric-value">10K+</span>
+                                <span class="metric-label">Images</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">2025</span>
+                                <span class="metric-label">Upcoming</span>
+                            </div>
+                        </div>
+                        <div class="research-status">
+                            <i class="fas fa-clock"></i>
+                            <span>To be published in IEEE Xplore</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Projects</span>
+                <h2 class="section-title">Featured Work</h2>
+                <p class="section-subtitle">Innovative solutions and implementations</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Breast Cancer Prediction</h3>
+                        <p>Ensemble machine learning models achieving 99.6%+ accuracy in cancer detection</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">SMOTE</span>
+                            <span class="tech-tag">XGBoost</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Skin Cancer Detection</h3>
+                        <p>CNN model trained on 10,000+ images for melanoma classification</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">CNN</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Land Use Classification</h3>
+                        <p>Urban feature analysis using satellite imagery and Google Earth Engine</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">GEE</span>
+                            <span class="tech-tag">Landsat-8</span>
+                            <span class="tech-tag">Random Forest</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Glucose Level Prediction</h3>
+                        <p>Web application with linear regression for real-time glucose prediction</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Linear Regression</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Skills</span>
+                <h2 class="section-title">Technical Expertise</h2>
+                <p class="section-subtitle">Mastering the tools of tomorrow</p>
+            </div>
+            
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C/C++</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>AI & Machine Learning</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">TensorFlow & Keras</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Scikit-learn</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Deep Learning</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Computer Vision</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Data & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Pandas & NumPy</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Google Earth Engine</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git & GitHub</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">WordPress</span>
+                                <span class="skill-percentage">78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to collaborate on innovative projects</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item glass-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>humayoun.kobir137@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item glass-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+880 1518792380</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item glass-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Dhaka, Bangladesh</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form glass-card">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <label for="name">Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Khandoker Humayoun Kobir. Crafted with passion and AI.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
